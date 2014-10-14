@@ -24,6 +24,13 @@
 			remoteGlobalIDString = 502FABF819ED75EE00D5B293;
 			remoteInfo = HelloWorld;
 		};
+		502FAC2219ED75F200D5B293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 502FABF119ED75EE00D5B293 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 502FABF819ED75EE00D5B293;
+			remoteInfo = HelloWorld;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -151,6 +158,7 @@
 			);
 			dependencies = (
 				502FAC1419ED75EE00D5B293 /* PBXTargetDependency */,
+				502FAC2319ED75F200D5B293 /* PBXTargetDependency */,
 			);
 			name = HelloWorldTests;
 			productName = HelloWorldTests;
@@ -240,6 +248,11 @@
 			isa = PBXTargetDependency;
 			target = 502FABF819ED75EE00D5B293 /* HelloWorld */;
 			targetProxy = 502FAC1319ED75EE00D5B293 /* PBXContainerItemProxy */;
+		};
+		502FAC2319ED75F200D5B293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 502FABF819ED75EE00D5B293 /* HelloWorld */;
+			targetProxy = 502FAC2219ED75F200D5B293 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
